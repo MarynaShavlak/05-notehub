@@ -6,6 +6,8 @@
 видаляти наявні. Дані зберігаються на бекенді
 [NoteHub API](https://notehub-public.goit.study/api/docs).
 
+**Демо:** https://05-notehub-woad-eta.vercel.app
+
 ## Стек
 
 - React + TypeScript
