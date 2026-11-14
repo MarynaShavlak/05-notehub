@@ -32,8 +32,6 @@ export default function App() {
   const notes = data?.notes ?? [];
   const totalPages = data?.totalPages ?? 0;
 
-  // Після видалення останньої нотатки на останній сторінці
-  // повертаємось на сторінку, яка ще існує.
   if (totalPages > 0 && currentPage > totalPages) {
     setCurrentPage(totalPages);
   }
